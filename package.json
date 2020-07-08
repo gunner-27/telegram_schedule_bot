@@ -1,0 +1,26 @@
+{
+  "name": "telegram_schedule_bot",
+  "version": "0.0.1",
+  "description": "Simple telegram bot to remember meetings",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunner-27/telegram_schedule_bot.git"
+  },
+  "author": "gunner-27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunner-27/telegram_schedule_bot/issues"
+  },
+  "homepage": "https://github.com/gunner-27/telegram_schedule_bot#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "slimbot": "^4.8.0"
+  }
+}
