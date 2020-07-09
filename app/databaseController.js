@@ -66,4 +66,4 @@ async function addNewSchedule(id, event) {
   }
 }
 
-module.exports = { hello, findUserSchedule, addEvent, addNewSchedule };
+module.exports = { findUserSchedule, addEvent, addNewSchedule };
