@@ -1,10 +1,11 @@
 {
   "name": "telegram_schedule_bot",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple telegram bot to remember meetings",
   "scripts": {
     "lint": "eslint"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gunner-27/telegram_schedule_bot.git"
@@ -21,6 +22,7 @@
     "eslint-plugin-import": "^2.22.0"
   },
   "dependencies": {
+    "mongodb": "^3.5.9",
     "slimbot": "^4.8.0"
   }
 }
